@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Titulos*/
+@font-face {
+
+  font-family: "Title";
+  src: url("../src/fonts/OpenSans/OpenSans-Bold.ttf");
+}
+/*Outros textos*/
+@font-face {
+  font-family: "Text";
+  src: url("../src/fonts/OpenSans/OpenSans-SemiBold.ttf");
+}
+
+body {
+
+  background-color: #FFFAFA;
+  font-family: "Text";
+  color: #303030;
+}
